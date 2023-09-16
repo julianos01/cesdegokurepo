@@ -1,3 +1,21 @@
+/* navbar */
+.letternavbar{
+    font-size: 150%;
+}
+
+.firstitemnav{
+    margin-left: 20%;
+    
+}
+
+.navbaritemtext{
+    margin-right: 5%;
+}
+
+.lastitemnav{
+    margin-right: 5%;
+}
+
 .tru {
     margin-right: 2%;
     width: 20rem;
