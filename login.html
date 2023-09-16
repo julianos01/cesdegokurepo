@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="./stylelogin.css">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./stylelogin.css">
     <div id="login" class="container">
       <div class="row-fluid">
         <div class="span12">
           <div class="login well well-small">
             <div class="center">
-              <img src="http://placehold.it/250x100&text=Logo" alt="logo"> 
+              <img src="img/Imagen de WhatsApp 2023-09-16 a las 16.56.39.jpg" alt="logo"> 
             </div>
             <form action="/users/login" style="" class="login-form" id="UserLoginForm" method="post" accept-charset="utf-8">
               <div class="control-group">
@@ -27,6 +27,12 @@
                 <label id="remember-me">
                   <input type="checkbox" name="data[User][remember_me]" value="1" id="UserRememberMe"> Recordarme</label>
               </div>
+
+              <div class="control-group">
+                <label id="remember-me">
+                  <input type="checkbox" name="data[User][remember_me]" value="1" id="UserRememberMe"> Olvide mi contraseña</label>
+              </div>
+
               <div class="control-group">
                 <input class="btn btn-primary btn-large btn-block" type="submit" value="Ingresar"
               </div>
@@ -34,15 +40,21 @@
               <br>
 
               <center>Oh continua con..</center>
+
               <br>
 
-              <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
+              <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
+              type="submit"><i class="fab fa-google me-2"></i> Sign in with google</button>
+            <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+              type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button>
+
+              <!-- <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
               role="button">
               <i class="fab fa-facebook-f me-2"></i>Facebook
             </a>
-            <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!"
+            <a class="btn btn-primary btn-lg btn-block" style="background-color: white" href="#!"
               role="button">
-              <i class="fab fa-twitter me-2"></i>Google</a>
+              <i class="fab fa-twitter me-2"></i>Google</a> -->
 
             </form>
           </div><!--/.login-->
