@@ -24,29 +24,29 @@
 
 
 .vueloimg{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     margin-top: 5%;
     margin-right: 5%;
 }
 
 .conciertoimg{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     margin-top: 5%;
     margin-right: 5%;
 }
 
 .hotelimg{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     margin-top: 5%;
     margin-right: 5%;
 }
 
 .excursionimg{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     margin-top: 5%;
     margin-right: 5%;
 }
