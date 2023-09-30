@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link rel="stylesheet" href="./stylelogin.css">
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <div id="login" class="container">
-      <div class="row-fluid">
-        <div class="span12">
-          <div class="login well well-small">
-            <div class="center">
-              <img src="img/Imagen de WhatsApp 2023-09-16 a las 16.56.39.jpg" alt="logo"> 
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="login" class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="login well well-medium">
+          <div class="center">
+            <img src="./img/lastimeoff.jpg" alt="logo"> 
+          </div>
+          <form action="/users/login" style="" class="login-form" id="UserLoginForm" method="post" accept-charset="utf-8">
+            <div class="control-group">
+              <div class="input-prepend">
+                <span class="add-on"><i class="icon-user"></i></span>
+                <input name="data[User][username]" required="required" placeholder="Usuario" maxlength="255" type="text" id="UserUsername"> 
+              </div>
             </div>
-            <form action="/users/login" style="" class="login-form" id="UserLoginForm" method="post" accept-charset="utf-8">
-              <div class="control-group">
-                <div class="input-prepend">
-                  <span class="add-on"><i class="icon-user"></i></span>
-                  <input name="data[User][username]" required="required" placeholder="Usuario" maxlength="255" type="text" id="UserUsername"> 
-                </div>
+            <div class="control-group">
+              <div class="input-prepend">
+                <span class="add-on"><i class="icon-lock"></i></span>
+                <input name="data[User][password]" required="required" placeholder="Contrasena" type="password" id="UserPassword"> 
               </div>
-              <div class="control-group">
-                <div class="input-prepend">
-                  <span class="add-on"><i class="icon-lock"></i></span>
-                  <input name="data[User][password]" required="required" placeholder="Contrasena" type="password" id="UserPassword"> 
-                </div>
-              </div>
-              <div class="control-group">
-                <label id="remember-me">
-                  <input type="checkbox" name="data[User][remember_me]" value="1" id="UserRememberMe"> Recordarme</label>
-              </div>
+            </div>
+            <div class="control-group">
+              <label id="remember-me">
+                <input type="checkbox" name="data[User][remember_me]" value="1" id="UserRememberMe"> Recordarme</label>
+            </div>
 
-              <div class="control-group">
-                <label id="remember-me">
-                  <input type="checkbox" name="data[User][remember_me]" value="1" id="UserRememberMe"> Olvide mi contraseña</label>
-              </div>
+            <div class="control-group">
+              <label id="remember-me">
+                <input type="checkbox" name="data[User][remember_me]" value="1" id="UserRememberMe"> Olvide mi contraseña</label>
+            </div>
 
-              <div class="control-group">
-                <input class="btn btn-primary btn-large btn-block" type="submit" value="Ingresar"
-              </div>
+            <div class="control-group">
+              <input class="btn btn-primary btn-large btn-block" type="submit" value="Ingresar"
+            </div>
 
-              <br>
+            <br>
 
-              <center>Oh continua con..</center>
+            <center>Oh continua con..</center>
 
-              <br>
+            <br>
 
-              <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
-              type="submit"><i class="fab fa-google me-2"></i> Sign in with google</button>
+            <button class="btn btn-lg btn-block btn-primary" i> Ingresa con Google</button>
             <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
-              type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button>
+            type="submit"><i class="fab fa-facebook-f me-2"></i>Ingresa con facebook</button>
 
-              <!-- <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
-              role="button">
-              <i class="fab fa-facebook-f me-2"></i>Facebook
-            </a>
-            <a class="btn btn-primary btn-lg btn-block" style="background-color: white" href="#!"
-              role="button">
-              <i class="fab fa-twitter me-2"></i>Google</a> -->
+            <!-- <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
+            role="button">
+            <i class="fab fa-facebook-f me-2"></i>Facebook
+          </a>
+          <a class="btn btn-primary btn-lg btn-block" style="background-color: white" href="#!"
+            role="button">
+            <i class="fab fa-twitter me-2"></i>Google</a> -->
 
-            </form>
-          </div><!--/.login-->
-        </div><!--/.span12-->
-      </div><!--/.row-fluid-->
-    </div><!--/.container-->
-
-
+          </form>
+        </div><!--/.login-->
+      </div><!--/.span12-->
+    </div><!--/.row-fluid-->
+  </div><!--/.container-->
+</body>
 </html>

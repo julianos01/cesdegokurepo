@@ -50,3 +50,31 @@
     margin-top: 5%;
     margin-right: 5%;
 }
+
+.lined {
+    display: inline-flex;
+
+    margin-top: 1%;
+}
+
+.jumbo{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.cont_title{
+    padding-left: 4%;
+    width: 30%;
+    height: 40%;
+}
+
+.nolarged{
+    width: 80%;
+}
+
+.jumboBack
+{
+    background-color:#1F222D;
+}
