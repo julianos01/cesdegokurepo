@@ -16,24 +16,37 @@
     margin-right: 5%;
 }
 
-.tru {
-    margin-right: 2%;
-    width: 20rem;
-    border-color: green;
-}
-
-
-.cardsinline {
+.imgultimasofer{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
 }
 
-.first{
-    margin-left: 5%;
+
+.vueloimg{
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
 }
 
-.justi {
-    text-align: justify
+.conciertoimg{
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.hotelimg{
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.excursionimg{
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
 }
